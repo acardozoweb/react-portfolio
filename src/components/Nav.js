@@ -1,9 +1,9 @@
 import React from "react";
 
-function NavTabs(props) {
-  const tabs = ["Home", "About", "Contact", "Resume"];
+function Nav(props) {
+  const tabs = ["About", "Projects", "Contact", "Resume"];
   return (
-    <ul className="nav nav-tabs">
+    <ul className="flex-row nav nav-tabs">
       {tabs.map((tab) => (
         <li className="nav-item" key={tab}>
           <a
@@ -21,4 +21,4 @@ function NavTabs(props) {
   );
 }
 
-export default NavTabs;
+export default Nav;

@@ -4,7 +4,10 @@ const Blog = () => (
   <div>
     <h1>Resume</h1>
     <p>
-        resume stuff goes here
+      Click to download
+      <a href="../assets/anthonyCV.pdf" download>
+        <span className="resumeLink">: ANTHONY CARDOZO - CV</span>
+      </a>
     </p>
   </div>
 );

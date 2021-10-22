@@ -40,11 +40,11 @@ function ContactForm() {
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
-      <h2 data-testid="h2tag">Reach me!</h2>
+      <h2 data-testid="h2tag">Get in touch!</h2>
       <address>
-        <a href="mailto:kobybanks@gmail.com">kobybanks@gmail.com</a>
+        <a href="mailto:kobybanks@gmail.com">anthonyccardozo@gmail.com</a>
         <br />
-        <a href="tel:+13432026543">(343) 202-6543</a>
+        <a href="tel:+13432026543">(613) 612-9660</a>
       </address>
 
       <form id="contact-form" onSubmit={handleSubmit}>
