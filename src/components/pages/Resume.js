@@ -5,7 +5,7 @@ const Resume = () => (
     <h1 class="pro-title">Resume</h1>
     <p>
       Click to download
-      <a href="../assets/anthonyCV.pdf" download>
+      <a href="/anthonyCV.pdf" download>
         <span className="resumeLink">: ANTHONY CARDOZO - CV</span>
       </a>
     </p>
