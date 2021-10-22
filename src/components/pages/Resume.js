@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog = () => (
+const Resume = () => (
   <div>
     <h1>Resume</h1>
     <p>
@@ -12,4 +12,4 @@ const Blog = () => (
   </div>
 );
 
-export default Blog;
+export default Resume;

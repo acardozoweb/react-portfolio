@@ -13,7 +13,7 @@ function Footer() {
       <a href="https://github.com/acardozoweb" rel="noreferrer" target="_blank">
         <img src={githublogo} alt="github logo" />
       </a>
-      <a href="anthonyccardozo@gmail.com">
+      <a href="mailto:anthonyccardozo@gmail.com">
         <img src={gmaillogo} alt="gmail logo" />
       </a>
     </footer>

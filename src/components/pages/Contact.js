@@ -39,8 +39,7 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <h2 data-testid="h2tag">Get in touch!</h2>
+      <h1 data-testid="h1tag">Get in touch!</h1>
       <address>
         <a href="mailto:kobybanks@gmail.com">anthonyccardozo@gmail.com</a>
         <br />
