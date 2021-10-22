@@ -11,7 +11,7 @@ function Portfolio() {
     },
     {
       name: "Budget Tracker PWA",
-      link: "aqueous-oasis-97101.herokuapp.com/",
+      link: "https://aqueous-oasis-97101.herokuapp.com/",
       gitLink: "https://github.com/acardozoweb/budget-tracker-challenge",
     },
     {
