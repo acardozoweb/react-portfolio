@@ -5,7 +5,7 @@ const Resume = () => (
     <h1 class="pro-title">Resume</h1>
     <p>
       Click to download
-      <a href="/anthonyCV.pdf" download>
+      <a href="/resume/resume.pdf" download>
         <span className="resumeLink">: ANTHONY CARDOZO - CV</span>
       </a>
     </p>
@@ -13,7 +13,7 @@ const Resume = () => (
     <ul>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Responsive design</li>
+        <li>Responsive Design</li>
         <li>Bootstrap</li>
         <li>React</li>
         <li>JavaScript</li>
@@ -21,7 +21,7 @@ const Resume = () => (
         <li>Express</li>
         <li>MySQL</li>
         <li>MongoDB</li>
-        <li>Prograssive web app conversion</li>
+        <li>Progressive Web Apps</li>
     </ul>
   </div>
 );

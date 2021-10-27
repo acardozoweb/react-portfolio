@@ -5,8 +5,13 @@ import githublogo from "../../assets/icons/githublogo.png"
 function Portfolio() {
   const [projects] = useState([
     {
+      name: "Ruff Cuts",
+      link: "https://still-plateau-57843.herokuapp.com/",
+      gitLink: "https://github.com/Jacob-Banks/group-3",
+    },
+    {
       name: "MERN Book Search Engine",
-      link: "https://mysterious-brook-64349.herokuapp.com/",
+      link: "https://thawing-dawn-06259.herokuapp.com/",
       gitLink: "https://github.com/acardozoweb/mern-booksearch",
     },
     {
@@ -18,11 +23,6 @@ function Portfolio() {
       name: "What 2 Watch",
       link: "https://jacob-banks.github.io/group-project-1/",
       gitLink: "https://github.com/Jacob-Banks/group-project-1",
-    },
-    {
-      name: "Weather Dashboard",
-      link: "https://acardozoweb.github.io/weather-dashboard-challenge/",
-      gitLink: "https://github.com/acardozoweb/weather-dashboard-challenge",
     },
     {
       name: "Workday Scheduler",
@@ -49,11 +49,11 @@ function Portfolio() {
               key={image.name}
             />
             <div className="sub">
-              <a href={image.link}>
+              <a target="_blank" href={image.link}>
                 {" "}
                 <span className="name  py-1 px-1">{image.name}</span>
               </a>
-              <a href={image.gitLink}>
+              <a target="_blank" href={image.gitLink}>
                 <img
                   src={githublogo}
                   alt="link to git hub"
